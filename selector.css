@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .coba h3 {
+    color: red;
+}
+.coba1 h3 {
+    color: blue;
+} */
+/* Selector Descendant / Turunan */
+.Turunan {
+    color: red;
+}
+/* Child Selector  */
+.Child > h3 {
+    color :blue;
+}
+/* Adjacent Siblings selector  + */
+h3 + h1 {
+    color: green;
+}
+/* General siblings ~ */
+div ~ p {
+    color: brown;
+}
